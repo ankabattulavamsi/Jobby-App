@@ -1,0 +1,67 @@
+.jobby-app-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272727;
+  padding: 65px;
+  border-radius: 15px;
+}
+.website-logo {
+  width: 150px;
+  margin-bottom: 25px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.login-button {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+.label {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.user-input {
+  background: transparent;
+  border: 1px solid #6366f1;
+  width: 350px;
+  border-radius: 5px;
+  padding: 12px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+.error-msg {
+  align-self: start;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
